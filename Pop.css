@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.popup-message{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.071);
+    align-items: center;
+    justify-content: center;
+}
+.popup{
+    background-color: white;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 9px;
+    position: absolute;
+}
+
+.task-title{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-around;
+}
+
+.task-title > input{
+    border-radius: 6px;
+    border: none;
+    border: 1px solid #ccc;
+    height: 40px;
+}
+.task-title > textarea{
+    height: 70px;
+    border: 1px solid #ccc;
+}
+.task-title > select{
+    border-radius: 6px;
+    border: none;
+    border: 1px solid #ccc;
+    height: 40px;
+}
+
+.btns >button{
+    padding: 4px 7px;
+    margin-left: 10px;
+    font-size: 15px;
+    background-color: rgb(42, 175, 252);
+    color: white;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+}

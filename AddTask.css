@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main{
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 70%;
+    height: 80vh;
+    background-color: rgb(212, 210, 210);
+}
+.Add-task{
+    display: flex;
+    justify-content: space-between;
+    height: 3em;
+}
+
+.Task-add{
+    display: flex;
+    width: 23%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+}
+.Task-add > h4{
+    color: rgb(22, 153, 229);
+    font-size: 20px;
+}
+.Task-add > .but{
+    display: flex;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 15px;
+    align-items: center;
+    gap: 20px;
+    width: 90%;    
+    height: 70%;
+    padding-left: 9px;
+    background-color: white;
+}
+
+.but > button{
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    height: 100%;
+}
+.soting{
+     display: flex;
+    width: 20%;
+    justify-content:end ;
+    align-items: center;
+    gap: 20px;
+}
+
+.soting > select{
+    padding: 5px 6px;
+    border-radius: 8px;
+}
